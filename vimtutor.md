@@ -3,8 +3,11 @@
 dw,de,d$,dd
 # 1.3   The Put Command
 p,r,
+
 c跟d差不多，但c组合指令会直接进入insert mode，而d组合指令不会进入insert mode
+
 ce，修改至e定位的位置，即词尾
+
 cb=db+i
 # 1.4   Cursor Location and File Status
 ctrl-g,gg,G,number+G
